@@ -27,3 +27,11 @@ To run the tests for the project, run the following command:
 ```bash
 npm test
 ```
+## Sources
+
+* https://www.w3schools.com/css/css3_gradients.asp
+* https://fontlibrary.org/en/font/dauphine
+* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp
+* https://www.lipsum.com/
+* https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio
+* 

@@ -9,8 +9,21 @@
 /**
  * This function prints the string 'Hello World' to the console
  */
+
+// not working
 export function helloWorld() {
-    console.log('Hello World');
+    const radioButtons = document.querySelectorAll('input[name="length"]');
+
+    for (const radioButton of radioButtons) 
+    {
+        if (radioButton.checked) 
+        {
+            selectedValue = radioButton.id;
+            break;
+        }
+    }
+
+    alert(selectedValue);
 }
 
 /**

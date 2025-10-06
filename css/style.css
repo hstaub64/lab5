@@ -1,29 +1,93 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+* {
+  box-sizing: border-box;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+html {
+  font-family: sans-serif;
 }
 
-th, td {
-  padding: 12px 15px;
+body {
+  margin: 0;
+  background: #ccc;
+  
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-image: url('../img/logo.png');
+  /*filter: drop-shadow(2px 5px 3px black);*/
+  border-radius: 100px;
+  box-shadow: 3px 7px 3px rgba(0, 0, 0, 0.673);
+}
+
+/* Your CSS below here */
+
+body.a {
+  background-image: url('../img/top-image.png');
+
+  background-image: url('../img/top-image.png'), url('../img/bottom-image.png'), linear-gradient(to bottom, #a5a5a576, rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0)), linear-gradient(to top, #a5a5a576, rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0), rgba(211, 211, 211, 0));
+  background-position: top, bottom, top, bottom;
+  background-repeat: no-repeat;
+
+  background-color: #ffffff;
+
+  border-top: 1mm, solid, red;
+  border-bottom: 1mm, solid, red;
+}
+
+h2.a, h3.a {
+    font-weight: 400;
+    font-family: 'DauphineRegular';
+    text-align: center;
+    padding-top: 25%;
+}
+
+h2 {
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.column {
+  float: left;
+  padding-right: 30px;
+  width: 50%;
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'DauphineRegular'
+}
+
+label {
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.a {
   text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-tbody tr:hover {
-  background-color: #e9e9e9;
 }
